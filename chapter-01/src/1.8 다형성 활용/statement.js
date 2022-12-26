@@ -8,7 +8,7 @@ export function htmlStatement(invoice, plays) {
   return renderHtml(createStatementData(invoice, plays));
 }
 
-function renderPlainText(data) {
+function renderPlainText(data, plays) {
   let result = `청구내역 (고객명: ${data.customer})\n`;
   for (let perf of data.performances) {
     result += `${perf.play.name} : ${usd(perf.amount)} (${perf.audience}석)\n`;
