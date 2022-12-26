@@ -5,7 +5,7 @@
 - 하는 일이 너무 많다.
 - format이 statement함수 내에 정의되어있는 것
 - for문
-- for문 안의 switch문 : 연극 장르가
+- for문 안의 switch문 : 연극 장르가 늘어날 수록 복잡해짐
 
 ### 1.4 함수 쪼개기
 

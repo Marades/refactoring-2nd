@@ -1,5 +1,5 @@
-import invoices from "../invoices.json" assert { type: "json" };
-import plays from "../plays.json" assert { type: "json" };
+import invoices from "../invoices.js";
+import plays from "../plays.js";
 
 statement(invoices[0], plays);
 
