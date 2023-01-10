@@ -7,6 +7,6 @@ describe("province", function () {
     const asia = new Province(sampleProvinceData());
 
     // 2. 검증
-    assert.equal(asia.shortfall, 5);
+    expect(asia.shortfall).toEqual(5);
   });
 });
